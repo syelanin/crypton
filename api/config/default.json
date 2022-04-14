@@ -1,0 +1,26 @@
+{
+    "prod": {
+        "auth": {
+            "key": "api-key",
+            "secret": "api-secret"
+        },
+        "api": {
+            "base": "https://api.binance.com"
+        },
+        "ws": {
+            "base": "wss://stream.binance.com:9443"
+        }
+    },
+    "test": {
+        "auth": {
+            "key": "api-key",
+            "secret": "api-secret"
+        },
+        "api": {
+            "base": "https://testnet.binance.vision"
+        },
+        "ws": {
+            "base": "wss://testnet.binance.vision"
+        }
+    }
+}
